@@ -1,4 +1,9 @@
-// index, show, store, update, destroy
+// index = retorna listagem
+// show = retorna um unico elemento
+// store = criar um elemento
+// update = atualizar um elemento
+// destroy = remover um elemento
+
 const User = require("../models/User");
 
 module.exports = {
