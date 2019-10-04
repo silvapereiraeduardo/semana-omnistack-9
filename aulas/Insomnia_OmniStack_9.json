@@ -1,1 +1,324 @@
-{"_type":"export","__export_format":4,"__export_date":"2019-10-01T18:39:37.548Z","__export_source":"insomnia.desktop.app:v6.6.2","resources":[{"_id":"req_ea128bc1112d476bbab03e19a9aecef4","authentication":{},"body":{"mimeType":"application/json","text":"{\n\t\"date\": \"05 de Outubro\"\n}"},"created":1569951717022,"description":"","headers":[{"id":"pair_d005e71260b54629bd06bf01e428bdd5","name":"Content-Type","value":"application/json"},{"id":"pair_ac053717837e477485e65e979ae1df25","name":"user_id","value":"5d9390778c7bb55ed447f0d4"}],"isPrivate":false,"metaSortKey":-1569951717022,"method":"POST","modified":1569955070401,"name":"Store","parameters":[],"parentId":"fld_4eb0b959279044a399521dc63026cbc4","settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingSendCookies":true,"settingStoreCookies":true,"url":"{{ base_url  }}/spots/5d938c8d23cbb357b035f68c/bookings","_type":"request"},{"_id":"fld_4eb0b959279044a399521dc63026cbc4","created":1569951712447,"description":"","environment":{},"environmentPropertyOrder":null,"metaSortKey":-1569951712447,"modified":1569951712447,"name":"Booking","parentId":"wrk_2461295b2e18473c96a975f4b4d07fe3","_type":"request_group"},{"_id":"wrk_2461295b2e18473c96a975f4b4d07fe3","created":1569934044083,"description":"","modified":1569934044083,"name":"OmniStack 9.0","parentId":null,"_type":"workspace"},{"_id":"req_393c09c1aebe41e4a343a9c0c54fc3f8","authentication":{},"body":{},"created":1569951053163,"description":"","headers":[{"id":"pair_d53796b5470b41b584fb19095433a36d","name":"user_id","value":"5d93840b499db147ce9c3a3a"}],"isPrivate":false,"metaSortKey":-1569951053163,"method":"GET","modified":1569951095105,"name":"Show","parameters":[],"parentId":"fld_89ba928dd0324126b1f2f0492ed4d129","settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingSendCookies":true,"settingStoreCookies":true,"url":"{{ base_url  }}/dashboard","_type":"request"},{"_id":"fld_89ba928dd0324126b1f2f0492ed4d129","created":1569951043319,"description":"","environment":{},"environmentPropertyOrder":null,"metaSortKey":-1569951043319,"modified":1569951043319,"name":"Dashboard","parentId":"wrk_2461295b2e18473c96a975f4b4d07fe3","_type":"request_group"},{"_id":"req_703c1878eac84ade827d1d5b73ff9cee","authentication":{},"body":{},"created":1569950685049,"description":"","headers":[],"isPrivate":false,"metaSortKey":-1569950685049,"method":"GET","modified":1569950870054,"name":"Index","parameters":[{"id":"pair_404941e9741f4ca1b30baeb2ff03ab9a","name":"tech","value":"ReactJS"}],"parentId":"fld_8d249bacc051445aae4a5630fc589d0c","settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingSendCookies":true,"settingStoreCookies":true,"url":"{{ base_url  }}/spots","_type":"request"},{"_id":"fld_8d249bacc051445aae4a5630fc589d0c","created":1569949143061,"description":"","environment":{},"environmentPropertyOrder":null,"metaSortKey":-1569949143061,"modified":1569949143061,"name":"Spot","parentId":"wrk_2461295b2e18473c96a975f4b4d07fe3","_type":"request_group"},{"_id":"req_1fbcf9036aa444faa277b5f6de4b9e8b","authentication":{},"body":{"mimeType":"multipart/form-data","params":[{"fileName":"/home/objectedge/Downloads/office.jpg","id":"pair_dc8c75640e0d4b168f4c00ce5617a0d6","name":"thumbnail","type":"file","value":""},{"id":"pair_419dbdd1f468451d91ad90f9067d189d","name":"company","value":"Rocketseat"},{"id":"pair_da4cc3aed64a4650b31f3f5e086f3fb6","name":"price","value":"68"},{"id":"pair_17ca7bcb44b347629570e91ec650b4be","name":"techs","value":" ReactJS, React Native, Node.js"}]},"created":1569949153208,"description":"","headers":[{"id":"pair_2250f4ea70534a9eaf0c2eef0bc9e69e","name":"Content-Type","value":"multipart/form-data"},{"id":"pair_dd1e1bffbbe548eb95bbb24409d919e0","name":"user_id","value":"5d93840b499db147ce9c3a3a"}],"isPrivate":false,"metaSortKey":-1569949153208,"method":"POST","modified":1569950860463,"name":"Store","parameters":[],"parentId":"fld_8d249bacc051445aae4a5630fc589d0c","settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingSendCookies":true,"settingStoreCookies":true,"url":"{{ base_url  }}/spots","_type":"request"},{"_id":"req_eb401cc34bb144fd82dcdd9eaa214cc5","authentication":{},"body":{"mimeType":"application/json","text":"{ \n\t\"email\": \"silvapereiraeduardo@rocketseat.com.br\"\n} "},"created":1569934072031,"description":"","headers":[{"id":"pair_38e1d5da99854595ae90f376b613e7cf","name":"Content-Type","value":"application/json"}],"isPrivate":false,"metaSortKey":-1569934072032,"method":"POST","modified":1569951859241,"name":"Store","parameters":[{"id":"pair_5d54629cfcc446bbb3e42ed03f5738cb","name":"idade","value":"24"},{"id":"pair_e200bf0dd8244862bdeb1f6f66def2f0","name":"","value":""}],"parentId":"fld_6d0de05fea6a468cb3abbba8dbe231a8","settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingSendCookies":true,"settingStoreCookies":true,"url":"{{ base_url  }}/sessions","_type":"request"},{"_id":"fld_6d0de05fea6a468cb3abbba8dbe231a8","created":1569948245037,"description":"","environment":{},"environmentPropertyOrder":null,"metaSortKey":-1569948245037,"modified":1569948245037,"name":"Session","parentId":"wrk_2461295b2e18473c96a975f4b4d07fe3","_type":"request_group"},{"_id":"env_037e172269100e9a284ebcded053f5b4566b887c","color":null,"created":1569934044421,"data":{"base_url":"http://localhost:3333"},"dataPropertyOrder":{"&":["base_url"]},"isPrivate":false,"metaSortKey":1569934044421,"modified":1569948305365,"name":"Base Environment","parentId":"wrk_2461295b2e18473c96a975f4b4d07fe3","_type":"environment"},{"_id":"jar_037e172269100e9a284ebcded053f5b4566b887c","cookies":[],"created":1569934044428,"modified":1569934044428,"name":"Default Jar","parentId":"wrk_2461295b2e18473c96a975f4b4d07fe3","_type":"cookie_jar"}]}
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2019-10-04T17:30:59.795Z",
+  "__export_source": "insomnia.desktop.app:v7.0.0",
+  "resources": [
+    {
+      "_id": "req_ea128bc1112d476bbab03e19a9aecef4",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"date\": \"05 de Outubro\"\n}"
+      },
+      "created": 1569951717022,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_d005e71260b54629bd06bf01e428bdd5",
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "id": "pair_ac053717837e477485e65e979ae1df25",
+          "name": "user_id",
+          "value": "5d9390778c7bb55ed447f0d4"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1570196268165,
+      "method": "POST",
+      "modified": 1570210236884,
+      "name": "Store",
+      "parameters": [],
+      "parentId": "fld_4eb0b959279044a399521dc63026cbc4",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ base_url  }}/spots/5d9740d67139fd30b4a51036/bookings",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_4eb0b959279044a399521dc63026cbc4",
+      "created": 1569951712447,
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1569951712447,
+      "modified": 1569951712447,
+      "name": "Booking",
+      "parentId": "wrk_2461295b2e18473c96a975f4b4d07fe3",
+      "_type": "request_group"
+    },
+    {
+      "_id": "wrk_2461295b2e18473c96a975f4b4d07fe3",
+      "created": 1569934044083,
+      "description": "",
+      "modified": 1569934044083,
+      "name": "OmniStack 9.0",
+      "parentId": null,
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_0a20619489664d08aaced128afb3bd82",
+      "authentication": {},
+      "body": {},
+      "created": 1570196268115,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1570196268115,
+      "method": "POST",
+      "modified": 1570196297283,
+      "name": "Approve",
+      "parameters": [],
+      "parentId": "fld_4eb0b959279044a399521dc63026cbc4",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ base_url  }}/bookings/5d97494ca1ac4234c0cf93a4/approvals",
+      "_type": "request"
+    },
+    {
+      "_id": "req_11d870c230ba4913a6e91ed58e0412a0",
+      "authentication": {},
+      "body": {},
+      "created": 1570196587404,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1570073992568.5,
+      "method": "POST",
+      "modified": 1570196596478,
+      "name": "Reject",
+      "parameters": [],
+      "parentId": "fld_4eb0b959279044a399521dc63026cbc4",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ base_url  }}/bookings/5d97494ca1ac4234c0cf93a4/rejections",
+      "_type": "request"
+    },
+    {
+      "_id": "req_393c09c1aebe41e4a343a9c0c54fc3f8",
+      "authentication": {},
+      "body": {},
+      "created": 1569951053163,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_d53796b5470b41b584fb19095433a36d",
+          "name": "user_id",
+          "value": "5d93840b499db147ce9c3a3a"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1569951053163,
+      "method": "GET",
+      "modified": 1569951095105,
+      "name": "Show",
+      "parameters": [],
+      "parentId": "fld_89ba928dd0324126b1f2f0492ed4d129",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ base_url  }}/dashboard",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_89ba928dd0324126b1f2f0492ed4d129",
+      "created": 1569951043319,
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1569951043319,
+      "modified": 1569951043319,
+      "name": "Dashboard",
+      "parentId": "wrk_2461295b2e18473c96a975f4b4d07fe3",
+      "_type": "request_group"
+    },
+    {
+      "_id": "req_703c1878eac84ade827d1d5b73ff9cee",
+      "authentication": {},
+      "body": {},
+      "created": 1569950685049,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1569950685049,
+      "method": "GET",
+      "modified": 1569950870054,
+      "name": "Index",
+      "parameters": [
+        {
+          "id": "pair_404941e9741f4ca1b30baeb2ff03ab9a",
+          "name": "tech",
+          "value": "ReactJS"
+        }
+      ],
+      "parentId": "fld_8d249bacc051445aae4a5630fc589d0c",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ base_url  }}/spots",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_8d249bacc051445aae4a5630fc589d0c",
+      "created": 1569949143061,
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1569949143061,
+      "modified": 1569949143061,
+      "name": "Spot",
+      "parentId": "wrk_2461295b2e18473c96a975f4b4d07fe3",
+      "_type": "request_group"
+    },
+    {
+      "_id": "req_1fbcf9036aa444faa277b5f6de4b9e8b",
+      "authentication": {},
+      "body": {
+        "mimeType": "multipart/form-data",
+        "params": [
+          {
+            "fileName": "/home/objectedge/Downloads/office.jpg",
+            "id": "pair_dc8c75640e0d4b168f4c00ce5617a0d6",
+            "name": "thumbnail",
+            "type": "file",
+            "value": ""
+          },
+          {
+            "id": "pair_419dbdd1f468451d91ad90f9067d189d",
+            "name": "company",
+            "value": "Rocketseat 100"
+          },
+          {
+            "id": "pair_da4cc3aed64a4650b31f3f5e086f3fb6",
+            "name": "price",
+            "value": "68"
+          },
+          {
+            "id": "pair_17ca7bcb44b347629570e91ec650b4be",
+            "name": "techs",
+            "value": " ReactJS, React Native, Node.js"
+          }
+        ]
+      },
+      "created": 1569949153208,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_2250f4ea70534a9eaf0c2eef0bc9e69e",
+          "name": "Content-Type",
+          "value": "multipart/form-data"
+        },
+        {
+          "id": "pair_dd1e1bffbbe548eb95bbb24409d919e0",
+          "name": "user_id",
+          "value": "5d93840b499db147ce9c3a3a"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1569949153208,
+      "method": "POST",
+      "modified": 1570193620008,
+      "name": "Store",
+      "parameters": [],
+      "parentId": "fld_8d249bacc051445aae4a5630fc589d0c",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ base_url  }}/spots",
+      "_type": "request"
+    },
+    {
+      "_id": "req_eb401cc34bb144fd82dcdd9eaa214cc5",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{ \n\t\"email\": \"silvapereiraeduardo@rocketseat.com.br\"\n} "
+      },
+      "created": 1569934072031,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_38e1d5da99854595ae90f376b613e7cf",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1569934072032,
+      "method": "POST",
+      "modified": 1569951859241,
+      "name": "Store",
+      "parameters": [
+        {
+          "id": "pair_5d54629cfcc446bbb3e42ed03f5738cb",
+          "name": "idade",
+          "value": "24"
+        },
+        {
+          "id": "pair_e200bf0dd8244862bdeb1f6f66def2f0",
+          "name": "",
+          "value": ""
+        }
+      ],
+      "parentId": "fld_6d0de05fea6a468cb3abbba8dbe231a8",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "{{ base_url  }}/sessions",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_6d0de05fea6a468cb3abbba8dbe231a8",
+      "created": 1569948245037,
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1569948245037,
+      "modified": 1569948245037,
+      "name": "Session",
+      "parentId": "wrk_2461295b2e18473c96a975f4b4d07fe3",
+      "_type": "request_group"
+    },
+    {
+      "_id": "env_037e172269100e9a284ebcded053f5b4566b887c",
+      "color": null,
+      "created": 1569934044421,
+      "data": { "base_url": "http://localhost:3333" },
+      "dataPropertyOrder": { "&": ["base_url"] },
+      "isPrivate": false,
+      "metaSortKey": 1569934044421,
+      "modified": 1569948305365,
+      "name": "Base Environment",
+      "parentId": "wrk_2461295b2e18473c96a975f4b4d07fe3",
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_037e172269100e9a284ebcded053f5b4566b887c",
+      "cookies": [],
+      "created": 1569934044428,
+      "modified": 1569934044428,
+      "name": "Default Jar",
+      "parentId": "wrk_2461295b2e18473c96a975f4b4d07fe3",
+      "_type": "cookie_jar"
+    }
+  ]
+}
