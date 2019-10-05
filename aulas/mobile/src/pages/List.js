@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import socketio from "socket.io-client";
+import socketApi from "../services/socketApi";
 import {
   Alert,
   AsyncStorage,
@@ -19,7 +19,7 @@ export default function List() {
 
   useEffect(() => {
     AsyncStorage.getItem("user").then(user_id => {
-      const socket = socketio("http://localhost:3333", {
+      const socket = socketApi({
         query: { user_id }
       });
 
